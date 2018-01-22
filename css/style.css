@@ -580,7 +580,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
 }
 #gtco-our-team .team-item {
-  margin-bottom: 9em;
+  margin-bottom: 2em;
 }
 #gtco-our-team .team-item:last-child {
   margin-bottom: 0;
