@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 
-#translation{
+.translation{
   font-size: 12px;
   color: white;
   border: none !important;
@@ -287,9 +287,13 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   border-radius: 30px;
-  position: absolute;
-  right: 30px;
-  top: 24px
+  position:fixed;
+  right: 50px;
+  top: 24px;
+}
+.translation:hover {
+  background: #04B4AE;
+  color: #fff;
 }
 
 #gtco-hero .gtco-video-link a {
